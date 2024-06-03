@@ -1,42 +1,45 @@
-// let =num1;
-//  i =num2;
-//  operator= operator;
 
 
 
 
 
-num1 = prompt ('enter your first number')
+ num1 =  Number(prompt('enter your first number'));
 
-num2 = prompt ('enter your second number')
-
-
-op = prompt ('enter your operator')
+ num2 =  Number(prompt ('enter your second number'));
+ 
 
 
-if (op ==='+') {
+op = prompt ('enter your operator');
 
 
-    console.log ('your answer is' + (num1 +  num2 ))
+if (op==='+') {
+
+
+   console.log ('your answer is ' + (num1  +  num2));
+
     
-
 }
 
+
 else if ( op==='-') {
-    console.log ('Answer is ' + (num1 - num2))
+    console.log ('Answer is ' + (num1 - num2));
 
-} else if (op === "*");
+} 
 
-    else if (op ==='/')
+else if (op === "*"){
+  console.log(num1 * num2);
+}
 
-        {
-            console.log(num1/num2)
+    else if (op ==='/'){
+
+        
+            console.log(num1/num2);
         }
         
         else
         
       {
-        console.log('invalid operator')
+        console.log('invalid operator');
   
 
 
