@@ -3,55 +3,50 @@
 
 
 
- num1 =  Number(prompt('enter your first number'));
+//  num1 =  Number(prompt('enter your first number'));
 
- num2 =  Number(prompt ('enter your second number'));
+//  num2 =  Number(prompt ('enter your second number'));
  
 
 
-op = prompt ('enter your operator');
+// op = prompt ('enter your operator');
 
 
-if (op==='+') {
+// if (op==='+') {
 
 
-   console.log ('your answer is ' + (num1  +  num2));
+//    console.log ('your answer is ' + (num1  +  num2));
 
     
-}
+// }
 
 
-else if ( op==='-') {
-    console.log ('Answer is ' + (num1 - num2));
+// else if ( op==='-') {
+//     console.log ('Answer is ' + (num1 - num2));
 
-} 
+// } 
 
-else if (op === "*"){
-  console.log(num1 * num2);
-}
+// else if (op === "*"){
+//   console.log(num1 * num2);
+// }
 
-    else if (op ==='/'){
+//     else if (op ==='/'){
 
         
-            console.log(num1/num2);
-        }
+//             console.log(num1/num2);
+//         }
         
-        else
+//         else
         
-      {
-        console.log('invalid operator');
+//       {
+//         console.log('invalid operator');
   
 
 
-    }
+//     }
 
-
-// op = prompt ('enter your 1st number');
-// console.log(num1);
-
-// op = prompt ( 'enter your second number');
-// console.log(num2);
-
-
-// op = prompt ('your answer is')
-// console.log( 'your answer is'  + ( num1 + num2));
+age = Number(prompt = 'Enter AGE ' );
+ID = Number(prompt = 'Enter ID NUMBER ' );
+citizenship = Boolean ( prompt = 'South African' );
+name = String ( prompt = 'name');
+results = Boolean (prompt = 'results' ))
