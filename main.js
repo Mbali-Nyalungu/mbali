@@ -43,10 +43,27 @@
   
 
 
-//     }
+//     }40
 
-age = Number(prompt = 'Enter AGE ' );
-ID = Number(prompt = 'Enter ID NUMBER ' );
-citizenship = Boolean ( prompt = 'South African' );
-name = String ( prompt = 'name');
-results = Boolean (prompt = 'results' ))
+let name = (prompt ( ' Enter name: '));
+  let numAge = Number(prompt ('Enter age: ' ));
+let citizenship = Boolean(prompt ('South African yes or no:' ));
+
+
+
+
+
+
+
+
+if( numAge >= 18 && citizenship == 'yes'){
+
+  alert( 'hy' + name + ' you can vote ');
+
+}  
+else {
+  
+  alert('hy' + name + 'cannot vote' );
+
+}  
+
